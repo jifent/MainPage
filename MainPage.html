@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+    <title>Печать в общагах</title>
+    <link rel="stylesheet" href="../App.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+<header class="hero">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="atr1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cbe2f3"/><stop offset="1" stop-color="#f4f6f6"/></linearGradient></defs><rect x="0" y="0" width="400" height="170" fill="url(#atr1)"/><rect x="0" y="50" width="250" height="100" fill="#dcebf6"/><line x1="0" y1="50" x2="0" y2="150" stroke="#1b1e22" stroke-width="1.1"/><line x1="42" y1="50" x2="42" y2="150" stroke="#1b1e22" stroke-width="1.1"/><line x1="84" y1="50" x2="84" y2="150" stroke="#1b1e22" stroke-width="1.1"/><line x1="126" y1="50" x2="126" y2="150" stroke="#1b1e22" stroke-width="1.1"/><line x1="168" y1="50" x2="168" y2="150" stroke="#1b1e22" stroke-width="1.1"/><line x1="210" y1="50" x2="210" y2="150" stroke="#1b1e22" stroke-width="1.1"/><rect x="250" y="38" width="150" height="112" fill="#ead6b2"/><rect x="250" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="256" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="262" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="268" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="274" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="280" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="286" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="292" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="298" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="304" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="310" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="316" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="322" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="328" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="334" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="340" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="346" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="352" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="358" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="364" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="370" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="376" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="382" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="388" y="38" width="2.6" height="112" fill="#c79f69"/><rect x="394" y="38" width="2.6" height="112" fill="#c79f69"/><polygon points="-34.6,26.0 -52.0,16.0 -52.0,-4.0 -34.6,-14.0 -17.3,-4.0 -17.3,16.0" fill="#f7fbfd" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="0.0,26.0 -17.3,16.0 -17.3,-4.0 -0.0,-14.0 17.3,-4.0 17.3,16.0" fill="#b7d6ec" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="34.6,26.0 17.3,16.0 17.3,-4.0 34.6,-14.0 52.0,-4.0 52.0,16.0" fill="#d8eaf6" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="69.3,26.0 52.0,16.0 52.0,-4.0 69.3,-14.0 86.6,-4.0 86.6,16.0" fill="#f7fbfd" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="103.9,26.0 86.6,16.0 86.6,-4.0 103.9,-14.0 121.2,-4.0 121.2,16.0" fill="#b7d6ec" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="138.6,26.0 121.2,16.0 121.2,-4.0 138.6,-14.0 155.9,-4.0 155.9,16.0" fill="#d8eaf6" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="173.2,26.0 155.9,16.0 155.9,-4.0 173.2,-14.0 190.5,-4.0 190.5,16.0" fill="#f7fbfd" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="207.8,26.0 190.5,16.0 190.5,-4.0 207.8,-14.0 225.2,-4.0 225.2,16.0" fill="#b7d6ec" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="242.5,26.0 225.2,16.0 225.2,-4.0 242.5,-14.0 259.8,-4.0 259.8,16.0" fill="#d8eaf6" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="277.1,26.0 259.8,16.0 259.8,-4.0 277.1,-14.0 294.4,-4.0 294.4,16.0" fill="#f7fbfd" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="311.8,26.0 294.4,16.0 294.4,-4.0 311.8,-14.0 329.1,-4.0 329.1,16.0" fill="#b7d6ec" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="346.4,26.0 329.1,16.0 329.1,-4.0 346.4,-14.0 363.7,-4.0 363.7,16.0" fill="#d8eaf6" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="381.1,26.0 363.7,16.0 363.7,-4.0 381.1,-14.0 398.4,-4.0 398.4,16.0" fill="#f7fbfd" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="415.7,26.0 398.4,16.0 398.4,-4.0 415.7,-14.0 433.0,-4.0 433.0,16.0" fill="#b7d6ec" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="-17.3,56.0 -34.6,46.0 -34.6,26.0 -17.3,16.0 -0.0,26.0 0.0,46.0" fill="#b7d6ec" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="17.3,56.0 -0.0,46.0 0.0,26.0 17.3,16.0 34.6,26.0 34.6,46.0" fill="#d8eaf6" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="52.0,56.0 34.6,46.0 34.6,26.0 52.0,16.0 69.3,26.0 69.3,46.0" fill="#f7fbfd" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="86.6,56.0 69.3,46.0 69.3,26.0 86.6,16.0 103.9,26.0 103.9,46.0" fill="#b7d6ec" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="121.2,56.0 103.9,46.0 103.9,26.0 121.2,16.0 138.6,26.0 138.6,46.0" fill="#d8eaf6" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="155.9,56.0 138.6,46.0 138.6,26.0 155.9,16.0 173.2,26.0 173.2,46.0" fill="#f7fbfd" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="190.5,56.0 173.2,46.0 173.2,26.0 190.5,16.0 207.8,26.0 207.8,46.0" fill="#b7d6ec" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="225.2,56.0 207.8,46.0 207.8,26.0 225.2,16.0 242.5,26.0 242.5,46.0" fill="#d8eaf6" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="259.8,56.0 242.5,46.0 242.5,26.0 259.8,16.0 277.1,26.0 277.1,46.0" fill="#f7fbfd" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="294.4,56.0 277.1,46.0 277.1,26.0 294.4,16.0 311.8,26.0 311.8,46.0" fill="#b7d6ec" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="329.1,56.0 311.8,46.0 311.8,26.0 329.1,16.0 346.4,26.0 346.4,46.0" fill="#d8eaf6" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="363.7,56.0 346.4,46.0 346.4,26.0 363.7,16.0 381.1,26.0 381.1,46.0" fill="#f7fbfd" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="398.4,56.0 381.1,46.0 381.1,26.0 398.4,16.0 415.7,26.0 415.7,46.0" fill="#b7d6ec" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="433.0,56.0 415.7,46.0 415.7,26.0 433.0,16.0 450.3,26.0 450.3,46.0" fill="#d8eaf6" stroke="#1b1e22" stroke-width="1.6" stroke-linejoin="round"/><polygon points="64.0,54.0 108.0,54.0 196.0,150.0 126.0,150.0" fill="#ffffff" fill-opacity="0.24"/><polygon points="196.0,54.0 236.0,54.0 318.0,150.0 252.0,150.0" fill="#ffffff" fill-opacity="0.18"/><rect x="0" y="100" width="196" height="5" fill="#1b1e22"/><rect x="0" y="105" width="196" height="6" fill="#000000" fill-opacity="0.08"/><rect x="0" y="86" width="196" height="14" fill="#ffffff" fill-opacity="0.3"/><line x1="0" y1="86" x2="196" y2="86" stroke="#1b1e22" stroke-width="1.2"/><rect x="188" y="105" width="4" height="45" fill="#1b1e22"/><line x1="7" y1="86" x2="7" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="21" y1="86" x2="21" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="35" y1="86" x2="35" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="49" y1="86" x2="49" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="63" y1="86" x2="63" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="77" y1="86" x2="77" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="91" y1="86" x2="91" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="105" y1="86" x2="105" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="119" y1="86" x2="119" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="133" y1="86" x2="133" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="147" y1="86" x2="147" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="161" y1="86" x2="161" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="175" y1="86" x2="175" y2="100" stroke="#1b1e22" stroke-width="0.7"/><line x1="189" y1="86" x2="189" y2="100" stroke="#1b1e22" stroke-width="0.7"/><rect x="330" y="70" width="70" height="5" fill="#1b1e22"/><line x1="330" y1="56" x2="400" y2="56" stroke="#1b1e22" stroke-width="1.2"/><line x1="336" y1="56" x2="336" y2="70" stroke="#1b1e22" stroke-width="0.7"/><line x1="350" y1="56" x2="350" y2="70" stroke="#1b1e22" stroke-width="0.7"/><line x1="364" y1="56" x2="364" y2="70" stroke="#1b1e22" stroke-width="0.7"/><line x1="378" y1="56" x2="378" y2="70" stroke="#1b1e22" stroke-width="0.7"/><line x1="392" y1="56" x2="392" y2="70" stroke="#1b1e22" stroke-width="0.7"/><polygon points="252.0,150.0 330.0,72.0 330.0,78.0 258.0,150.0" fill="#1b1e22"/><rect x="252" y="143" width="10" height="7" fill="#efe9df"/><rect x="252" y="140" width="12" height="3" fill="#1b1e22"/><rect x="262" y="133" width="10" height="7" fill="#efe9df"/><rect x="262" y="130" width="12" height="3" fill="#1b1e22"/><rect x="272" y="123" width="10" height="7" fill="#efe9df"/><rect x="272" y="120" width="12" height="3" fill="#1b1e22"/><rect x="282" y="113" width="10" height="7" fill="#efe9df"/><rect x="282" y="110" width="12" height="3" fill="#1b1e22"/><rect x="292" y="103" width="10" height="7" fill="#efe9df"/><rect x="292" y="100" width="12" height="3" fill="#1b1e22"/><rect x="302" y="93" width="10" height="7" fill="#efe9df"/><rect x="302" y="90" width="12" height="3" fill="#1b1e22"/><rect x="312" y="83" width="10" height="7" fill="#efe9df"/><rect x="312" y="80" width="12" height="3" fill="#1b1e22"/><rect x="322" y="73" width="10" height="7" fill="#efe9df"/><rect x="322" y="70" width="12" height="3" fill="#1b1e22"/><line x1="254" y1="136" x2="334" y2="58" stroke="#1b1e22" stroke-width="1.2"/><line x1="274" y1="116.5" x2="274" y2="130" stroke="#1b1e22" stroke-width="0.7"/><line x1="294" y1="97.0" x2="294" y2="110" stroke="#1b1e22" stroke-width="0.7"/><line x1="314" y1="77.5" x2="314" y2="90" stroke="#1b1e22" stroke-width="0.7"/><rect x="0" y="150" width="400" height="20" fill="#d9b98b"/><rect x="0" y="150" width="400" height="2" fill="#b48c5a"/><line x1="0" y1="152" x2="-6" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="16" y1="152" x2="10" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="32" y1="152" x2="26" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="48" y1="152" x2="42" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="64" y1="152" x2="58" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="80" y1="152" x2="74" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="96" y1="152" x2="90" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="112" y1="152" x2="106" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="128" y1="152" x2="122" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="144" y1="152" x2="138" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="160" y1="152" x2="154" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="176" y1="152" x2="170" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="192" y1="152" x2="186" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="208" y1="152" x2="202" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="224" y1="152" x2="218" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="240" y1="152" x2="234" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="256" y1="152" x2="250" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="272" y1="152" x2="266" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="288" y1="152" x2="282" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="304" y1="152" x2="298" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="320" y1="152" x2="314" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="336" y1="152" x2="330" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="352" y1="152" x2="346" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="368" y1="152" x2="362" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="384" y1="152" x2="378" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="400" y1="152" x2="394" y2="170" stroke="#bf9a68" stroke-width="1"/><line x1="416" y1="152" x2="410" y2="170" stroke="#bf9a68" stroke-width="1"/><polygon points="24.0,150.0 36.0,150.0 34.5,141.0 25.5,141.0" fill="#ece4d6"/><circle cx="25" cy="135" r="5.5" fill="#6f9a78"/><circle cx="34" cy="133" r="6.5" fill="#86b08f"/><circle cx="30" cy="128" r="5.5" fill="#5f8a69"/><polygon points="222.0,150.0 234.0,150.0 232.5,141.0 223.5,141.0" fill="#ece4d6"/><circle cx="223" cy="135" r="5.5" fill="#6f9a78"/><circle cx="232" cy="133" r="6.5" fill="#86b08f"/><circle cx="228" cy="128" r="5.5" fill="#5f8a69"/><polygon points="164.0,100.0 176.0,100.0 174.5,91.0 165.5,91.0" fill="#ece4d6"/><circle cx="165" cy="85" r="5.5" fill="#6f9a78"/><circle cx="174" cy="83" r="6.5" fill="#86b08f"/><circle cx="170" cy="78" r="5.5" fill="#5f8a69"/><rect x="92.4" y="141" width="2.7" height="9" fill="#2a2d33"/><rect x="96.9" y="141" width="2.7" height="9" fill="#2a2d33"/><rect x="91" y="127" width="10" height="15" rx="3" fill="#2f64ad"/><circle cx="96" cy="123" r="3.8" fill="#e5b794"/><rect x="142.4" y="141" width="2.7" height="9" fill="#2a2d33"/><rect x="146.9" y="141" width="2.7" height="9" fill="#2a2d33"/><rect x="141" y="127" width="10" height="15" rx="3" fill="#d9a05b"/><circle cx="146" cy="123" r="3.8" fill="#e5b794"/><rect x="66.4" y="91" width="2.7" height="9" fill="#2a2d33"/><rect x="70.9" y="91" width="2.7" height="9" fill="#2a2d33"/><rect x="65" y="77" width="10" height="15" rx="3" fill="#c0473a"/><circle cx="70" cy="73" r="3.8" fill="#e5b794"/><rect x="284.4" y="101" width="2.7" height="9" fill="#2a2d33"/><rect x="288.9" y="101" width="2.7" height="9" fill="#2a2d33"/><rect x="283" y="87" width="10" height="15" rx="3" fill="#6b7280"/><circle cx="288" cy="83" r="3.8" fill="#e5b794"/></svg>
+    <div class="copy">
+        <span class="chip"><i class="dot"></i>принимаем заказы</span>
+        <h1 class="hero-title">Печать <span>в&nbsp;общагах</span></h1>
+        <p id="hello">Принесём распечатки к двери, на этаж или в аудиторию</p>
+        <div class="flow"><b>PDF</b><i>→</i><b>печать</b><i>→</i><b>дверь</b></div>
+    </div>
+</header>
+
+<main>
+    <a class="review" id="reviewCta" href="Reviews.html" hidden>Заказ <b id="reviewOrder"></b> получен. Оставьте отзыв</a>
+
+    <h2>Что напечатаем?</h2>
+    <a class="opt main" href="../CreateOrder/AploadFiles.html">
+        <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V4h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v6H7z"/></svg></span>
+        <span class="txt"><b>Сделать заказ</b><small>Загрузите PDF, мы напечатаем и принесём</small></span>
+        <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+    <a class="opt" href="Orders.html">
+        <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 3h6v4H9zM9 12h6M9 16h4"/></svg></span>
+        <span class="txt"><b>Мои заказы</b><small>Статус и история</small></span>
+        <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+
+    <div class="head">
+        <h2>Файлы</h2>
+        <span class="count">Кол-во: <b id="count">0</b></span>
+    </div>
+    <div class="tools" id="tools">
+        <button class="link" id="selAll" type="button">Выбрать все</button>
+        <button class="link" id="selNone" type="button">Не выбирать</button>
+    </div>
+    <ul class="box" id="list" style="margin-top:0"></ul>
+    <p class="empty" id="empty">Файлов пока нет. Нажмите «Сделать заказ» и загрузите PDF.</p>
+    <button class="btn secondary" id="edit" type="button">Изменить</button>
+    <button class="btn primary" id="pay" type="button">Оплатить</button>
+
+    <h2>Цены</h2>
+    <dl>
+        <div class="item"><dt>Страница A4, ч/б</dt><span class="dots"></span><dd>10 ₽</dd></div>
+        <div class="item"><dt>Страница A4, цветная</dt><span class="dots"></span><dd>15 ₽</dd></div>
+        <div class="item sub"><dt>A5 / A6 от цены A4</dt><span class="dots"></span><dd>×0.6 / ×0.36</dd></div>
+        <div class="item"><dt>Доставка в блоки 1–5</dt><span class="dots"></span><dd>от 10 ₽</dd></div>
+        <div class="item"><dt>Доставка в блоки с буквами</dt><span class="dots"></span><dd>от 35 ₽</dd></div>
+        <div class="item"><dt>Доставка в аудиторию или корпус</dt><span class="dots"></span><dd>от 25 ₽</dd></div>
+        <div class="item sub"><dt>Каждый этаж выше первого</dt><span class="dots"></span><dd>+5 ₽</dd></div>
+        <div class="item sub"><dt>Каждый переход между блоками</dt><span class="dots"></span><dd>+5 ₽</dd></div>
+    </dl>
+</main>
+
+<script src="../App.js"></script>
+<script>
+    const LINKS = { settings: '../CreateOrder/Settings.html', payment: '../CreateOrder/Payment.html' };
+    const STATUS = { loaded: 'Загружен', loading: 'Загрузка…', error: 'Не удалось загрузить' };
+
+    // Черновик заказа хранится на устройстве: { files: [{ id, name, pages, status, selected }] }
+    let d = draft.get();
+    let lastOrder = store.get('lastOrder', null);
+
+    if (location.search.indexOf('demo') !== -1 && !d.files.length) {      // MainPage.html?demo
+        d = { files: [
+            { id: 1, name: 'Конспект.pdf',       status: 'loaded',  selected: true  },
+            { id: 2, name: 'Реферат.pdf',        status: 'loading', selected: false },
+            { id: 3, name: 'Лабораторная_3.pdf', status: 'error',   selected: false }
+        ] };
+        lastOrder = { id: '301026-1', reviewed: false };
+    }
+
+    function render() {
+        const files = d.files;
+        const loaded = files.filter(f => f.status === 'loaded');
+        const selected = files.filter(f => f.selected);
+
+        $('count').textContent = files.length;
+        $('empty').hidden = files.length > 0;
+        $('list').hidden = !files.length;
+        $('tools').hidden = !files.length;
+        $('selAll').disabled = !loaded.length || selected.length === loaded.length;
+        $('selNone').disabled = !selected.length;
+        $('edit').disabled = !selected.length;
+        $('pay').disabled = !loaded.length;
+
+        const list = $('list'); list.textContent = '';
+        files.forEach(f => {
+            const li = el('li', f.status), label = el('label'), box = el('input'), info = el('span', 'file');
+            box.type = 'checkbox'; box.checked = !!f.selected; box.disabled = f.status !== 'loaded';
+            box.addEventListener('change', () => { f.selected = box.checked; draft.set(d); render(); });
+            info.append(el('b', '', f.name), el('small', '', STATUS[f.status] + (f.status === 'loaded' ? ' ✓' : '')));
+            label.append(box, info); li.append(label); list.append(li);
+        });
+
+        const askReview = lastOrder && !lastOrder.reviewed;          // отзыв, только если заказ был, а отзыва нет
+        $('reviewCta').hidden = !askReview;
+        if (askReview) {
+            $('reviewOrder').textContent = '№' + lastOrder.id;
+            $('reviewCta').href = 'Reviews.html?order=' + encodeURIComponent(lastOrder.id);
+        }
+    }
+
+    function selectAll(on) {
+        d.files.forEach(f => { f.selected = on && f.status === 'loaded'; });
+        draft.set(d); render();
+    }
+    $('selAll').addEventListener('click', () => selectAll(true));
+    $('selNone').addEventListener('click', () => selectAll(false));
+    $('edit').addEventListener('click', () => go(LINKS.settings));
+    $('pay').addEventListener('click', () => go(LINKS.payment));
+
+    if (tg) {
+        tg.BackButton.hide();
+        const user = tg.initDataUnsafe && tg.initDataUnsafe.user;
+        if (user && user.first_name) $('hello').textContent = 'Привет, ' + user.first_name + '! Принесём распечатки куда скажете';
+        document.addEventListener('click', e => {
+            if (e.target.closest('a, button') && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
+        });
+    }
+    render();
+</script>
+</body>
+</html>
